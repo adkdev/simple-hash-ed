@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simple Hash Encoder/Decoder",
+  "description": "Simple Hash Encoder/Decoder",
+  "version": "1.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png"
+  }
+}

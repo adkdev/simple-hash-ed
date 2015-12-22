@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<title>Simple Hash Encoder/Decoder</title>
+<style>
+body {min-width: 357px;overflow-x: hidden}
+textarea { min-height: 80px; }
+#hash_result { margin-top: 2px; }
+/*div {border: 1px dotted #666;min-height: 80px;margin-top: 5px;padding: 0 5px}*/
+</style>
+</head>
+<body>
+<select id="hash_type">
+<option value="base64">Base64</option>
+<option value="md5">MD5</option>
+<option value="sha1">Sha1</option>
+<option value="url">URL</option>
+</select>
+<textarea row="10" cols="60" id="hash_msg"></textarea>
+<input type="button" id="encode" value="Encode">
+<span> / <input type="button" id="decode" value="Decode"></span>
+<textarea row="10" cols="60" id="hash_result"></textarea>
+<script src="md5.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
